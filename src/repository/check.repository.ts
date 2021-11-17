@@ -7,7 +7,7 @@ export class CheckRepository {
     }
     
 checkStatus(id){
-    axios.patch(`https://sheetdb.io/api/v1/to8vhwddex27w/idEntrega/${id}`, 
+    axios.patch(`https://sheetdb.io/api/v1/059zyale8msd5/numberP/${id}`, 
 	{ 
 		data:{"status":"Produto Entregue"}
 	}, 
